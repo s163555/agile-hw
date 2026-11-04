@@ -1,0 +1,17 @@
+# SBT / Scala build artifacts
+target/
+project/target/
+project/project/
+.bsp/
+test_run_dir/
+
+# Generated Verilog/SystemVerilog
+*.sv
+*.v
+
+# IDE and tool caches
+.bloop/
+.metals/
+.idea/
+.vscode/
+*.log
