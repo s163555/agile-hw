@@ -34,6 +34,8 @@ Overall, the course will provide the students with a comprehensive understanding
 
  ## Lecture Plan
 
+ The source of the slides are part of the Chisel book [source](https://github.com/schoeberl/chisel-book) in folder [slides-agile](https://github.com/schoeberl/chisel-book/tree/master/slides-agile)
+
  ### Week 1: Agile and Scala
 
   * [Slides](01_scala.pdf)
@@ -93,18 +95,15 @@ Experiences of using LLMs at Microchip.
 
  ### Week 10: Formal Verification (Amelia)
 
+ * [Lecture Notes](formal/formal_notes_spoilers.pdf)
   * Lab: verification lab
-  * Standup presentation (2 minutes per group, no slides), project work
+  * project work
 
-### Week 11: Spade, and Using Your Language in Agile Design (Frans)
+### Week 11: Mixed Topics
 
-  * [Slides](spade.pdf)
-  * Install Spade, see [Spade Setup](https://docs.spade-lang.org/agile/quick_setup.html)
-  * Lab: [Spade Intro](https://docs.spade-lang.org/agile/intro.html)
- 
-### Week xx: Chisel in Research (Maybe)
-
- * [Slides](tbd.pdf)
+ * [Slides](11_misc.pdf)
+ * Standup presentation (2 minutes per group, no slides), project work
+ * Lab: Project work
 
 ### Week 12: Project Work
 
@@ -113,6 +112,13 @@ Experiences of using LLMs at Microchip.
 ### Week 13: Project Presentations
 
   * Lab: Final project presentation and demo
+
+### Week xx: Spade, and Using Your Language in Agile Design (Frans)
+
+  * [Slides](spade.pdf)
+
+### Week xx: Chisel in Research (Maybe)
+
 
 ## Group Projects 2026
 
