@@ -1,11 +1,24 @@
 # SBT / Scala build artifacts
-target/
-project/target/
-project/project/
+**/target/
+**/project/
 .bsp/
 test_run_dir/
 
-# Generated Verilog/SystemVerilog
+# Generated Chisel / FIRRTL Intermediate files
+*.fir
+*.anno.json
+**/*.fir
+**/*.anno.json
+
+# Verilator-generated files (obj_dir, C++ source, headers, makefiles, etc.)
+obj_dir/
+*.vlt
+verilated*
+*__DPI*
+*__V*
+fst*
+
+# Generated Verilog from Chisel compilation
 *.sv
 *.v
 
@@ -15,3 +28,14 @@ test_run_dir/
 .idea/
 .vscode/
 *.log
+.DS_Store
+
+# Vivado build artifacts and caches
+*.bit
+*.bit.bak
+.Xil/
+*.log
+*.jou
+*.backup.jou
+*.backup.log
+clockInfo.txt
